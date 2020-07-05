@@ -1,0 +1,340 @@
+
+  /* ----- colors ------
+
+  background-color:#effffe;
+  background-color:#fbfbfb;
+  theme color: #00AFA3;
+  text grey color: #333;
+  */
+
+body {
+    margin: 0px;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    color: #333;
+}
+.top-container {
+    padding-top: 150px;
+    position: relative;
+    background-color:#effffe;
+}
+.middle-container-1 {
+    padding-top: 50px;
+}
+.middle-container-2 {
+    padding-top: 50px;
+    background-color:#fbfbfb;
+}
+.middle-container-3 {
+    padding-top: 50px;
+}
+.bottom-container {
+    padding-top: 100px;
+    padding-bottom: 10px;
+    background-color:#fbfbfb;
+}
+h1 {
+    margin: 0 auto 50px auto;
+    font-size: 50px;
+    color: #00AFA3;
+    font-weight: 500;
+}
+h2 {
+    margin: 0 auto 150px auto;
+    font-size: 28px;
+    color: #00AFA3;
+    font-weight: 700;
+}
+h3 {
+    margin-bottom: 20px;
+    font-size: 40px;  
+    font-weight: 500;
+}
+h4 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 24px;  
+    font-weight: 500;
+}
+p {
+    font-size: 20px;   
+    font-weight: 300;
+}
+.button {
+    padding: 0 20px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 28px;
+    border: solid 1px #00afa3;
+    border-color: #00AFA3;
+    cursor: pointer;
+    color: #00AFA3;
+    text-decoration: none;
+    font-size: 18px;
+    transition: all .1s;
+}
+.button:hover {
+    background-color:#00AFA3;
+    color:white;
+}
+.button:active {
+	position:relative;
+    top:1px;
+}
+.pro {
+    text-decoration: underline;
+}
+
+.cover {
+    width: 85%;
+}
+
+.design-work-title {
+    width: 1200px;
+    margin: 100px auto;
+}
+.design-work-project {
+    margin: 0 auto 200px auto;
+    display: flex;
+    width: 1200px;
+}
+.forty {
+  width: 40%;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding-right: 8%;
+}
+.sixty {
+    width: 60%;
+    
+}
+.technical-img {
+    width: 100%;
+}
+.spots-img {
+    width: 100%;
+    height:600px;
+}
+.blog-title {
+    width: 1200px;
+    margin: 100px auto;
+}
+.blog-posts {
+    margin: 0 auto ;
+    padding-bottom: 50px;
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+.post {
+    margin-bottom: 50px;
+   
+    width: 368px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    background-color: white;
+    text-align: left;
+    border-radius: 12px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+
+    transition: all .15s ease-out;
+}
+.post:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.post-img {
+    margin-bottom: 20px;
+    
+    height: 240px;
+}
+.post-text {
+    margin:0 40px 20px;
+}
+.about-title {
+    width: 1200px;
+    margin: 100px auto;
+}
+.about-text {
+    width: 800px;
+    margin:  auto;
+    margin-bottom: 50px;
+    text-align: left;
+    line-height: 1.5;
+}
+.about-mission {
+    margin:  0 auto 100px;
+    
+    
+    width: 600px;
+    text-align: center;
+}
+
+.profile-img {
+    
+    width: 80px;
+    border-radius: 40px;
+    margin-bottom: 100px;
+}
+.more-works-title {
+    width: 1200px;
+    margin: 100px auto;
+}
+.more-works {
+    margin: 0 auto;
+    padding-bottom: 50px;
+
+    width: 1200px;
+    display: flex;
+    flex-direction: row;   
+    justify-content: space-between;
+    
+}
+.more-works-category {
+    margin-bottom: 50px;
+    padding-bottom: 30px;
+
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+    overflow: hidden;
+    transition: all .15s ease-out;
+}
+.more-works-category:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.more-work-img {
+    margin-bottom: 30px;
+
+    height: 240px;
+}
+.contact-me {
+    margin: -50px auto 50px;
+    
+    width: 240px;
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: space-between;
+    overflow: hidden;
+}
+.social {
+    margin: -30px auto 0;
+    padding-bottom: 10px;
+    width: 240px;
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: space-between;
+    overflow: hidden;
+}
+.icon {
+    width: 36px;
+}
+.btn {
+    color:#333;
+    text-decoration: none;
+}
+.btn:hover {
+color: #00AFA3;
+}
+
+/* ------------display property---------------
+block: p,  
+inline: span, img, a 
+inline-block: 
+none: 
+
+inline cant change width, inline-block can
+"none" is like being removed, "visibility:hidden" cant be seen but still take place
+
+*/
+/* --------position--------
+static: default
+relative: relative to static, other elements wont move
+absolute: relative to parent, other elements will move. parent is the closest parent that has the relative layout 
+fixed
+*/
+
+/*-----center------
+text-align: center; (parent)
+or margin:auto (element)
+*/
+
+/* 
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+*/
+/* --------position--------
+static: default
+relative: relative to static, other elements wont move
+absolute: relative to parent, other elements will move. parent is the closest parent that has the relative layout 
+fixed
+*/
+
+/*-----center------
+text-align: center; (parent)
+or margin:auto (element)
+*/
+
+/* 
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+hr  {
+    border-style: dotted none none;
+    border-width: 5px;
+    width: 4%;
+    color: #b4b4b4;
+}
+*/
+/*-------- Font-family--------
+serif: with little foot, default: times;
+san-serif: without little foot, default: Arial;
+monospace: letters take same space;
+cursive: hand-written style, not used;
+fantasy: not used;
+
+-------Font size----------
+100% = 16px 
+1em = 16px,  
+% and em scale with website, and stack
+rem: root em, ignores parent em
+*/
+/* --------position--------
+static: default
+relative: relative to static, other elements wont move
+absolute: relative to parent, other elements will move. parent is the closest parent that has the relative layout 
+fixed
+*/
+
